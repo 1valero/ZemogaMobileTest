@@ -37,6 +37,6 @@ Ninguno. No se instalo Cocoapods o alguna dependecía para realizar esta app
 ¡GRACIAS!
 
 <p align="center">
-    <img src="https://blog.teamtreehouse.com/wp-content/uploads/2017/11/Thanksgiving.png" style="max-width: 40%;">
+    <img src="https://blog.teamtreehouse.com/wp-content/uploads/2017/11/Thanksgiving.png" height="200px">
 </p>
 
