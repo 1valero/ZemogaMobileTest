@@ -10,6 +10,10 @@
 		E189B660284EE35A00225EE4 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E189B65F284EE35A00225EE4 /* Comment.swift */; };
 		E189B662284EE47100225EE4 /* Profiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = E189B661284EE47100225EE4 /* Profiles.swift */; };
 		E189B664284F04CA00225EE4 /* CommentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E189B663284F04CA00225EE4 /* CommentsTableViewCell.swift */; };
+		E189B66F28505CE400225EE4 /* ZemogaTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E189B66E28505CE400225EE4 /* ZemogaTestTests.swift */; };
+		E189B67728505FFE00225EE4 /* CommentTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E189B67628505FFE00225EE4 /* CommentTest.swift */; };
+		E189B6792850668F00225EE4 /* ProfilesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E189B6782850668F00225EE4 /* ProfilesTest.swift */; };
+		E189B67B285066A500225EE4 /* PostsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E189B67A285066A500225EE4 /* PostsTest.swift */; };
 		E1ADBA03284D91B6001E649E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1ADBA02284D91B6001E649E /* AppDelegate.swift */; };
 		E1ADBA05284D91B6001E649E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1ADBA04284D91B6001E649E /* SceneDelegate.swift */; };
 		E1ADBA07284D91B6001E649E /* StartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1ADBA06284D91B6001E649E /* StartController.swift */; };
@@ -27,10 +31,26 @@
 		E1ADBA2C284EDBC5001E649E /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1ADBA2B284EDBC5001E649E /* DetailController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E189B67128505CE400225EE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1ADB9F7284D91B6001E649E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1ADB9FE284D91B6001E649E;
+			remoteInfo = ZemogaTest;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		E189B65F284EE35A00225EE4 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		E189B661284EE47100225EE4 /* Profiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profiles.swift; sourceTree = "<group>"; };
 		E189B663284F04CA00225EE4 /* CommentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsTableViewCell.swift; sourceTree = "<group>"; };
+		E189B66C28505CE400225EE4 /* ZemogaTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZemogaTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E189B66E28505CE400225EE4 /* ZemogaTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZemogaTestTests.swift; sourceTree = "<group>"; };
+		E189B67028505CE400225EE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E189B67628505FFE00225EE4 /* CommentTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTest.swift; sourceTree = "<group>"; };
+		E189B6782850668F00225EE4 /* ProfilesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilesTest.swift; sourceTree = "<group>"; };
+		E189B67A285066A500225EE4 /* PostsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTest.swift; sourceTree = "<group>"; };
 		E1ADB9FF284D91B6001E649E /* ZemogaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZemogaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1ADBA02284D91B6001E649E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1ADBA04284D91B6001E649E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +71,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E189B66928505CE400225EE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E1ADB9FC284D91B6001E649E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -61,10 +88,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E189B66D28505CE400225EE4 /* ZemogaTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				E189B66E28505CE400225EE4 /* ZemogaTestTests.swift */,
+				E189B67028505CE400225EE4 /* Info.plist */,
+				E189B67628505FFE00225EE4 /* CommentTest.swift */,
+				E189B6782850668F00225EE4 /* ProfilesTest.swift */,
+				E189B67A285066A500225EE4 /* PostsTest.swift */,
+			);
+			path = ZemogaTestTests;
+			sourceTree = "<group>";
+		};
 		E1ADB9F6284D91B6001E649E = {
 			isa = PBXGroup;
 			children = (
 				E1ADBA01284D91B6001E649E /* ZemogaTest */,
+				E189B66D28505CE400225EE4 /* ZemogaTestTests */,
 				E1ADBA00284D91B6001E649E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				E1ADB9FF284D91B6001E649E /* ZemogaTest.app */,
+				E189B66C28505CE400225EE4 /* ZemogaTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,6 +179,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		E189B66B28505CE400225EE4 /* ZemogaTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E189B67328505CE400225EE4 /* Build configuration list for PBXNativeTarget "ZemogaTestTests" */;
+			buildPhases = (
+				E189B66828505CE400225EE4 /* Sources */,
+				E189B66928505CE400225EE4 /* Frameworks */,
+				E189B66A28505CE400225EE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E189B67228505CE400225EE4 /* PBXTargetDependency */,
+			);
+			name = ZemogaTestTests;
+			productName = ZemogaTestTests;
+			productReference = E189B66C28505CE400225EE4 /* ZemogaTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E1ADB9FE284D91B6001E649E /* ZemogaTest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1ADBA13284D91B7001E649E /* Build configuration list for PBXNativeTarget "ZemogaTest" */;
@@ -164,6 +223,10 @@
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					E189B66B28505CE400225EE4 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = E1ADB9FE284D91B6001E649E;
+					};
 					E1ADB9FE284D91B6001E649E = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
@@ -183,11 +246,19 @@
 			projectRoot = "";
 			targets = (
 				E1ADB9FE284D91B6001E649E /* ZemogaTest */,
+				E189B66B28505CE400225EE4 /* ZemogaTestTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E189B66A28505CE400225EE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E1ADB9FD284D91B6001E649E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -201,6 +272,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E189B66828505CE400225EE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E189B66F28505CE400225EE4 /* ZemogaTestTests.swift in Sources */,
+				E189B67728505FFE00225EE4 /* CommentTest.swift in Sources */,
+				E189B6792850668F00225EE4 /* ProfilesTest.swift in Sources */,
+				E189B67B285066A500225EE4 /* PostsTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E1ADB9FB284D91B6001E649E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -225,6 +307,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		E189B67228505CE400225EE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1ADB9FE284D91B6001E649E /* ZemogaTest */;
+			targetProxy = E189B67128505CE400225EE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		E1ADBA08284D91B6001E649E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -245,6 +335,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		E189B67428505CE400225EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZemogaTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jose.ZemogaTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZemogaTest.app/ZemogaTest";
+			};
+			name = Debug;
+		};
+		E189B67528505CE400225EE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZemogaTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jose.ZemogaTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZemogaTest.app/ZemogaTest";
+			};
+			name = Release;
+		};
 		E1ADBA11284D91B7001E649E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -400,6 +528,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E189B67328505CE400225EE4 /* Build configuration list for PBXNativeTarget "ZemogaTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E189B67428505CE400225EE4 /* Debug */,
+				E189B67528505CE400225EE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E1ADB9FA284D91B6001E649E /* Build configuration list for PBXProject "ZemogaTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

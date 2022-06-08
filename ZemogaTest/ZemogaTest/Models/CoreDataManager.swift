@@ -21,10 +21,10 @@ class CoreDataManager{
     private func setupDB(){
         container.loadPersistentStores { (desc, error) in
                 if let error = error {
-                    print("Error loading store \(desc) — \(error)")
+                    Utils.dump(text: "Error loading store \(desc) — \(error)")
                     return
                 }
-                print("Database ready!")
+            Utils.dump(text: "Database ready!")
             
         }
     }

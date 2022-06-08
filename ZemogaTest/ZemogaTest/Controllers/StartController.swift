@@ -39,7 +39,6 @@ class StartController: UIViewController {
             
             group.enter()
             Services.requestArray(url: Constants.URL_GET_PROFILE, method: Constants.GET) {data in
-            Utils.dump(text: data)
                 for dat in data{
                     var pro = Profiles()
                     pro.name = dat["name"] as! String
@@ -53,7 +52,6 @@ class StartController: UIViewController {
             
             group.enter()
             Services.requestArray(url: Constants.URL_GET_COMMENTS, method: Constants.GET) {data in
-            Utils.dump(text: data)
                 for dat in data{
                     var com = Comment()
                     com.id = dat["id"] as! Int
