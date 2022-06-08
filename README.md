@@ -38,7 +38,7 @@ Ninguno. No se instalo Cocoapods o alguna dependecía para realizar esta app
 
 <p align="center">
   <a href="https://tryretool.com/?utm_source=sponsor&utm_campaign=typicode" target="_blank">
-    <img src="https://dribbble.com/shots/8630894-Programmer-cat/attachments/888068?mode=media" height="70px">
+    <img src="https://blog.teamtreehouse.com/wp-content/uploads/2017/11/Thanksgiving.png" height="70px">
   </a>
 </p>
 
