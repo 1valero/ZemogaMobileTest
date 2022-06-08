@@ -16,7 +16,7 @@ npm install -g json-server
 json-server --watch db.json
 ```
 
-4. Abrir ZemogaTest.xcodeproj
+4. Abrir [ZemogaTest.xcodeproj] (https://github.com/1valero/ZemogaMobileTest/tree/main/ZemogaTest/ZemogaTest.xcodeproj)
 5. Compilar el proyecto
 
 
