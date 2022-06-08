@@ -1,0 +1,17 @@
+{
+  "posts": [
+    { "id": 1, "title": "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit.", "author": "typicode", "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a libero nec risus porttitor consequat ut vitae massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a libero nec risus porttitor consequat ut vitae massa. Praesent id velit sed tellus aliquet ultrices."},
+    { "id": 2, "title": "2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a libero nec risus porttitor consequat ut vitae massa.", "author": "anonymous", "body": "Lorem ipsum dolor sit a-met, consectetur adipiscing elit. Fusce a libero nec risus porttitor consequat ut vitae massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a libero nec risus porttitor consequat ut vitae massa. Praesent id velit sed tellus aliquet ultrices."},
+{ "id": 3, "title": "3 Fusce a libero nec risus porttitor consequat ut vitae massa.", "author": "anonymous", "body": "Fusce a libero nec risus porttitor consequat ut vitae massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a libero nec risus porttitor consequat ut vitae massa. Praesent id velit sed tellus aliquet ultrices."}
+  ],
+  "comments": [
+    { "id": 1, "body": "Lorem ipsum dolor sit amet, consectetur.", "postId": 1 },
+{ "id": 2, "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a libero nec risus porttitor consequat ut vitae massa.", "postId": 1 },
+{ "id": 3, "body": "Test Lorem ipsum dolor sit amet, consectetur adipiscing elit.", "postId": 2 },
+{ "id": 4, "body": "Consectetur adipiscing elit.", "postId": 3 }
+  ],
+  "profile": [
+	{ "name": "typicode", "email" : "jj@correo.com", "phone": "998866553", "website":"www.typi.com" },
+{"name": "anonymous", "email" : "aa@email.com", "phone": "999666333", "website": "www.anonymous.pe" }
+	]
+}
