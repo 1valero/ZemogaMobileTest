@@ -34,4 +34,11 @@ Esta aplicación utiliza Core Data (Nativo de iOS). La simpleza de código y su 
 
 Ninguno. No se instalo Cocoapods o alguna dependecía para realizar esta app
 
+¡GRACIAS!
+
+<p align="center">
+  <a href="https://tryretool.com/?utm_source=sponsor&utm_campaign=typicode" target="_blank">
+    <img src="https://dribbble.com/shots/8630894-Programmer-cat/attachments/888068?mode=media" height="70px">
+  </a>
+</p>
 
